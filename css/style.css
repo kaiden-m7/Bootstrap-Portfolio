@@ -64,44 +64,65 @@ body {
     border-left: 0 none;
 }
 
-.col-sm-6 {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 70px;
-    margin: 0 0 70px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-}
-
-.row {
-    padding-top: 30px;
-    min-height: calc(100vh - 70px);
-    width: 100%;
-}
+#main-container {
+    padding-top: 80px;
+    height: 20px;
+  }
 
 .col-sm-12 {
     float: left;
     width: 100%;
+    height: 190px;
     max-width: 960px;
+    padding-top: 30px;
+    margin: 15px 0 70px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    padding: 15px;
 }
 
 h1 {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
   }
 
-
-
-
-footer {
+  .rowTwo { 
+    float: left;
     width: 100%;
+    height: 520px;
     max-width: 960px;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 0 0 70px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+
+  }
+
+.col-sm-3 {
+    float: left;
+    padding: 20px;
+    width: 40%;
+    
+}
+
+.col-sm-9 {
+    float: right;
+    padding: 10px;
+    width: 60%;
+
+}
+
+
+
+.footerK {
+    padding: 30px 0;
     clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
 }
