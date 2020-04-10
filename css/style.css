@@ -72,10 +72,10 @@ body {
 .col-sm-12 {
     float: left;
     width: 100%;
-    height: 190px;
+    height: 130px;
     max-width: 960px;
     padding-top: 30px;
-    margin: 15px 0 70px;
+    margin: 15px 0;
     background: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -92,8 +92,9 @@ h1 {
     width: 100%;
     height: 520px;
     max-width: 960px;
-    padding: 10px;
+    padding: 15px;
     margin: 0 0 70px;
+    margin-bottom: 25px;
     background: #ffffff;
     border: 1px solid #dddddd;
 
@@ -103,6 +104,7 @@ h1 {
     float: left;
     padding: 20px;
     width: 40%;
+    margin: 0;
     
 }
 
@@ -110,12 +112,13 @@ h1 {
     float: right;
     padding: 10px;
     width: 60%;
+    margin: 0;
 
 }
 
 
 
-.footerK {
+#footerK {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
