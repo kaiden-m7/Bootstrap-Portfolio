@@ -113,6 +113,8 @@ h1 {
     padding: 10px;
     width: 60%;
     margin: 0;
+    word-wrap: break-word;
+
 
 }
 
@@ -126,10 +128,11 @@ h1 {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    
 }
 
    /* portfolio css */
-#portTitle {
+#topTitle {
     float: right;
     width: 100%;
     max-width: 960px;
@@ -145,6 +148,7 @@ h1 {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    padding: 40px;
 }
 
 .col-sm-6 img {
