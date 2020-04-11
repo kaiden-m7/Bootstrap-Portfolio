@@ -128,53 +128,48 @@ h1 {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    width: 100%;
     
 }
 
    /* portfolio css */
+#portfolioContainer {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
 #topTitle {
     float: right;
     width: 100%;
     max-width: 960px;
-    padding: 30px;
-    margin: 15px 0 40px;
+    padding: 10px;
     margin-left: 290px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    margin-top: 0;
 }
 .col-sm-6 {
-     position: relative;
+    position: relative;
     float: left;
-    width: 274px;
-    margin: 20px 0 25px;
+    width: 200px;
+    margin: 10px 0 25px;
     overflow: auto;
+
+    
 }
 
 .col-sm-6 img {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
-    column-gap: 20px;
+    column-gap: 5px;
+    padding-top: 90px;
 }
 
-#guess {
-    padding: 5px;
-}
 #game {
     padding: 5px;
-}
-
-#trivia {
-    padding: 5px;
-}
-
-#rock {
-    padding: 5px;
-}
-
-#rutgers {
-    padding: 5px;
-    float: right;
 }
 
 #blank {
