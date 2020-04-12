@@ -18,7 +18,7 @@ body {
 }
 
 .master-nav {
-    position: fixed;
+    position: static;
     z-index: 99;
     width: 100%;
     margin: 0;
@@ -197,3 +197,19 @@ h3 {
     border-bottom: 0;
     z-index: 2;
   }
+
+/* contact css */
+#contactFill {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-left: 287px;
+    padding-top: 20px; 
+    width: 955px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.formgroup {
+    margin: 20px;
+    padding: 30px;
+}
